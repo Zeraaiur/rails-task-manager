@@ -1,0 +1,13 @@
+<h1><%= @task.title %></h1>
+<hr>
+<h3>Details</h3>
+<p><%= @task.details %></p>
+
+<div class="button_show btn-primary btn">
+  <i class="fa fa-cog fa-spin" aria-hidden="true"></i>
+  <%= link_to "Edit this task", task_edit_path %>
+</div>
+<hr>
+  <div class="button_show btn-primary btn">
+  <%= link_to "Return to tasks", tasks_path %>
+</div>

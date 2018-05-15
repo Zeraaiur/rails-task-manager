@@ -13,3 +13,58 @@
  *= require_tree .
  *= require_self
  */
+
+
+@import "font-awesome";
+
+
+body{
+  padding:5%;
+}
+.checkbox{
+  margin-right:10px;
+}
+.fa{
+  color:#0056BA;
+}
+.my_link{
+  margin-right:10px;
+}
+.my_link:hover{
+  text-decoration:none;
+}
+.fa-trash{
+  opacity: 0.5;
+}
+
+.fa-trash:hover{
+  text-decoration:none;
+  opacity:1;
+}
+.fa-cog{
+  color:white;
+}
+
+
+.add_form input{
+  margin:3px;
+}
+.button_show{
+  width:130px;
+  margin-bottom:10px;
+}
+
+.button_show a{
+  color:white;
+}
+.button_show a:hover{
+  text-decoration:none;
+  color:white;
+}
+.input{
+  margin-bottom:10px;
+}
+
+
+
+

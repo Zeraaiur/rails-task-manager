@@ -1,0 +1,22 @@
+<h1>My tasks</h1>
+
+<form>
+<% @tasks.each do |task| %>
+<p>
+<input type="checkbox" name="vehicle" value="Bike" class="checkbox">
+
+<%= link_to task.title, task_path(task[:id]), :class => "my_link" %>
+
+<%= link_to "", delete_task_path(task.id), :class => "fa fa-trash", method: :delete %>
+</p>
+<% end %>
+</form>
+
+
+<hr>
+
+<p>
+<i class="fa fa-plus" aria-hidden="true"></i>
+<%= link_to "Add a new task", new_task_path %>
+</p>
+
